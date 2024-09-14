@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import './FAQ.css';
 import { IoArrowBackCircleSharp } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';
+import image1 from  '../../assets/orange.jpeg';
 
 
 // FAQ Component
@@ -28,7 +29,7 @@ const FAQSection = () => {
   const [faqs, setFaqs] = useState([
     {
       id: 1,
-      image: "https://via.placeholder.com/60", // Placeholder image
+      image: image1, // Placeholder image
       title: "How is Tangerine healthy?",
       description:
         "Tangerine are a great health booster due to their high vitamin C content, which supports the immune system and skin health.",
@@ -36,7 +37,7 @@ const FAQSection = () => {
     },
     {
       id: 2,
-      image: "https://via.placeholder.com/60", // Placeholder image
+      image: image1, // Placeholder image
       title: "How is Tangerine healthy?",
       description:
         "Tangerine are a great health booster due to their high vitamin C content, which supports the immune system and skin health.",
@@ -44,7 +45,7 @@ const FAQSection = () => {
     },
     {
       id: 3,
-      image: "https://via.placeholder.com/60", // Placeholder image
+      image: image1, // Placeholder image
       title: "How is Tangerine healthy?",
       description:
         "Tangerine are a great health booster due to their high vitamin C content, which supports the immune system and skin health.",
@@ -77,7 +78,7 @@ const FAQSection = () => {
     } else {
       // Create new FAQ
       const newId = faqs.length ? faqs[faqs.length - 1].id + 1 : 1;
-      setFaqs([...faqs, { ...newFAQ, id: newId, image: "https://via.placeholder.com/60" }]);
+      setFaqs([...faqs, { ...newFAQ, id: newId, image: image1 }]);
     }
     setNewFAQ({ title: "", description: "", fruitName: "" });
     setIsPopupOpen(false); // Close the popup after save

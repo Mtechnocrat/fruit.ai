@@ -1,15 +1,24 @@
 import React from 'react'
 import './About.css';
 import { PiFigmaLogoFill } from "react-icons/pi";
+import { IoArrowBackCircleSharp } from "react-icons/io5";
+import { useNavigate } from 'react-router-dom';
+
+
 
 const About = () => {
+  const navigate=useNavigate();
+  
+  const navBack = (e) =>{
+    e.preventDefault();
+    navigate('/');
+  }
   return (
-    <div className='app_about '>
+    <div className='app_about '>  
       <div className="about_header">
-        {/* Blurred placeholders for images/icons */}
-        <div className="icon blur"><PiFigmaLogoFill/></div>
-        <div className="icon blur"></div>
-        <div className="icon blur"></div>
+      <h1 className='back'>
+        <IoArrowBackCircleSharp onClick={navBack} />
+      </h1>
       </div>
     <div className="fruit-ai-container">
       <div className="content">
