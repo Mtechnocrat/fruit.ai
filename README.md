@@ -13,7 +13,7 @@ Technologies Used:
   3) Database: MongoDB (assumed from the provided backend code)
   4) HTTP Client: Axios (for making API requests)
 
-Getting Started:
+Getting Started :
 
   Prerequisites
     1) Node.js and npm (for ReactJS)
