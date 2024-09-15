@@ -112,3 +112,12 @@
     max-height: 200px; /* Limit the height */
     white-space: pre-wrap; /* Allow text wrapping */
   }
+
+
+  @media (max-width: 480px) {
+        .translate-app{
+            height: 100vh;
+            width: 100vw;
+            box-shadow: none;
+        }
+    }

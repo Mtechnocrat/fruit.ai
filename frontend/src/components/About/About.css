@@ -72,4 +72,18 @@
   .about-button:hover {
     background-color: #444;
   }
-  
+  @media (max-width: 480px) {
+    .app_about{
+        height: 100vh;
+        width: 100vw;
+        box-shadow: none;
+    }
+
+    .back{
+      margin-left: -15rem;
+      color: whitesmoke;
+    }
+    .fruit-ai-container {
+      margin-bottom: -2.188rem;
+  }
+}

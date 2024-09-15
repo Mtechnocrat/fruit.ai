@@ -150,7 +150,12 @@ body {
       grid-template-columns: 1fr 1fr;
       grid-gap: 15px;
     }
-  
+    .header{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      font-size: 2.5rem;
+    }
     .app {
       width: 100vw;
       height: 100vh;

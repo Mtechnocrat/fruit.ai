@@ -122,13 +122,13 @@ body{
   }
   @media (max-width: 480px) {
     body{
-
-        background-color:linear-gradient(135deg, #A2E4F5, #C1B0FF);
-
         .chat_app{
             height: 100vh;
             width: 100vw;
             box-shadow: none;
+        }
+        .back{
+            margin-right: 3rem;
         }
     }
 
