@@ -5,12 +5,6 @@ import { IoArrowBackCircleSharp } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';
 import './Translate.css';
 
-
-
-
-
-
-
 const Translate = () => {
   const [text, setText] = useState('');
   const [translatedText, setTranslatedText] = useState('');
