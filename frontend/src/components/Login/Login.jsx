@@ -16,10 +16,6 @@ const Login = () => {
     <div className="app">
 <div className="login-container">
       <h1>Login</h1>
-      <p>
-        By signing in you are agreeing to our{' '}
-        <a href="/">Term and privacy policy</a>
-      </p>
       
       {/* Login/Register Tabs */}
       <div className="tab-container">
@@ -49,13 +45,6 @@ const Login = () => {
           <i className="fas fa-eye"></i>
         </div>
 
-        <div className="options">
-          <label>
-            <input type="checkbox" />
-            Remember password
-          </label>
-          <a href="/">Forget password</a>
-        </div>
 
         <button type="submit" onClick={handleLogin} className="login-btn">Login</button>
       </form>

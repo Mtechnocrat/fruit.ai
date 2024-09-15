@@ -49,7 +49,7 @@ const Chat = () => {
   
   const navBack = (e) =>{
     e.preventDefault();
-    navigate('/');
+    navigate('/home');
   }
 
 

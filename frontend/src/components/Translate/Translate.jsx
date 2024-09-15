@@ -33,7 +33,7 @@ const Translate = () => {
 
   const navBack = (e) =>{
     e.preventDefault();
-    navigate('/');
+    navigate('/home');
   }
 
   return (
