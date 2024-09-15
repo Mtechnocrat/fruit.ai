@@ -105,7 +105,6 @@ const FAQSection = () => {
         <div className="faq-head">
           <h2 className="arr"><IoArrowBackCircleSharp onClick={navBack} /></h2>
           <h2 className="faqq">FAQ Section</h2>
-
         </div>
 
         {/* Add New FAQ Button */}
