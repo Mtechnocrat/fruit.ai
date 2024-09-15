@@ -38,7 +38,9 @@ body{
     display: flex;
     justify-content: center;
   }
-
+  .chat-header h1{
+    color:whitesmoke;
+  }
   .chat-header .bot{
     color: whitesmoke;
     margin-right: -25rem;
