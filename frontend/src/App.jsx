@@ -6,18 +6,20 @@ import Chat from './components/Chat/Chat';
 import Translate from './components/Translate/Translate';
 import About from './components/About/About';
 import Faq from './components/FAQ/FAQ';
+import Landing from './components/Landing/Landing';
 
 const App = () => {
   return (
     <>
 
       <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login/>} />
           <Route path="/chat" element={<Chat/>} />
           <Route path="/translate" element={<Translate/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/faq" element={<Faq/>} />
+          <Route path="/" element={<Landing/>} />
     </Routes>
     </>
   )

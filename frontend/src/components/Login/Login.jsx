@@ -1,15 +1,19 @@
 import React, { useState } from 'react'
 import './Login.css';
 import { useNavigate } from 'react-router-dom';
+import {FaInstagram , FaGoogle ,FaGithub} from 'react-icons/fa'
+import { FaFacebook } from "react-icons/fa6";
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
   const navigate=useNavigate();
 
   const handleLogin =(e)=>{
     e.preventDefault();
-    navigate('/');
+    navigate('/home');
   }
   return (
+
+    <div className="app">
 <div className="login-container">
       <h1>Login</h1>
       <p>
@@ -60,12 +64,13 @@ const Login = () => {
       <div className="social-login">
         <p>or connect with</p>
         <div className="social-icons">
-          <a href="/" className="facebook"><i className="fab fa-facebook"></i></a>
-          <a href="/" className="instagram"><i className="fab fa-instagram"></i></a>
-          <a href="/" className="pinterest"><i className="fab fa-pinterest"></i></a>
-          <a href="/" className="linkedin"><i className="fab fa-linkedin"></i></a>
+          <a  className="facebook"><FaInstagram /></a>
+          <a className="instagram"><FaGoogle /> </a>
+          <a  className="pinterest"><FaGithub /></a>
+          <a  className="linkedin"><FaFacebook /></a>
         </div>
       </div>
+    </div>
     </div>
   )
 }
