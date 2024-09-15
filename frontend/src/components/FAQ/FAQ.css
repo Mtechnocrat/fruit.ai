@@ -173,7 +173,12 @@
   
 
   @media (max-width: 480px) {
+    .app_FAQ{
+      height: 100vh;
+      width: 100vw;
+      box-shadow: none;
+    }
     .faq-section {
-      margin-left: 0;
+      margin-left: -1rem;
   }
 }

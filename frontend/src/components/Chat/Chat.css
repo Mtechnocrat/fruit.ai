@@ -128,8 +128,12 @@ body{
             box-shadow: none;
         }
         .back{
-            margin-right: 3rem;
+            margin-right: 7rem;
         }
+    }
+    .chatbot-container{
+        width: 100vw;
+        margin-left: -3rem;
     }
 
   }
