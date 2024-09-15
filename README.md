@@ -1,4 +1,5 @@
 #Fruit.ai
+Fruit.ai is a web application designed to provide information about various fruits through a user-friendly interface. The project is built with ReactJS for the frontend and FastAPI for the backend.
 
 Features: 
 
