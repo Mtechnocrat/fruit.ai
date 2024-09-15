@@ -37,11 +37,11 @@ const Login = () => {
       <form className="form-container">
         <div className="input-group">
           <i className="fas fa-envelope"></i>
-          <input type="email" placeholder="Email Address" />
+          <input type="email" placeholder="Email Address" important />
         </div>
         <div className="input-group">
           <i className="fas fa-lock"></i>
-          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Password" important />
           <i className="fas fa-eye"></i>
         </div>
 
