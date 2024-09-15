@@ -26,4 +26,16 @@
  .head h2{
     color: whitesmoke;
  }
+
+ @media (max-width: 480px) {
+   .land_app{
+     height: 100vh;
+     width: 100vw;
+     box-shadow: none;
+   }
+   .head h1{
+      font-size:4rem;
+   }
+   
+ }
   

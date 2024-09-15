@@ -11,7 +11,7 @@ const About = () => {
   
   const navBack = (e) =>{
     e.preventDefault();
-    navigate('/');
+    navigate('/home');
   }
   return (
     <div className='app_about '>  

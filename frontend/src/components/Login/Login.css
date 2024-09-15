@@ -1,8 +1,8 @@
 /* General Container Styling */
 body{
-  background: whitesmoke important;
+  background: whitesmoke;
 }
-.app {
+.app_login {
   width: 100%;
   max-width: 380px;
   height: 90vh;
@@ -160,3 +160,12 @@ body{
     background-color: #0077B5;
   }
   
+
+  @media (max-width: 480px) {
+    .app_login{
+      height: 100vh;
+      width: 100vw;
+      box-shadow: none;
+    }
+    
+  }
